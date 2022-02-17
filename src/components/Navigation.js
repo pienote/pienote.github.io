@@ -4,7 +4,7 @@ import {Navbar, Container, Nav, NavLink} from 'react-bootstrap';
 class Navigation extends React.Component {
     render() {
         return (
-            <Navbar>
+            <Navbar sticky="top" fixed="top" bg="dark" variant="dark">
                 <Container>
                     <Navbar.Brand href="/"> Hi </Navbar.Brand>
                     <Nav className="me-auto" activeKey={ window.location.pathname}>
