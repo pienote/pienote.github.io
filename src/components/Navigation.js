@@ -6,7 +6,7 @@ export default function Navigation() {
     return (
         <AppBar position="static">
             <Toolbar variant="dense">
-                Hello
+                Home
             </Toolbar>
         </AppBar>
     );
