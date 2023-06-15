@@ -1,7 +1,6 @@
 import pic from './pic.png';
 
 export default function Home() {
-
     return(
         <div className="Home">
             <h1> Welcome to my website! </h1>

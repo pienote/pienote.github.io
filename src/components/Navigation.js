@@ -1,12 +1,12 @@
 import React from 'react';
-import AppBar from '@mui/material/AppBar';
-import Toolbar from '@mui/material/Toolbar';
+import {AppBar, Toolbar, Button, Link} from '@mui/material';
 
 export default function Navigation() {
     return (
         <AppBar position="static">
             <Toolbar variant="dense">
-                Home
+                <Button href="/" component={Link} color="inherit"> Home </Button>
+                <Button href="/projects/" component={Link} color="inherit"> Projects </Button>
             </Toolbar>
         </AppBar>
     );
