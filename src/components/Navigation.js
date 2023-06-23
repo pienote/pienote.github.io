@@ -6,7 +6,7 @@ export default function Navigation() {
         <AppBar position="static">
             <Toolbar variant="dense">
                 <Button href="/" component={Link} color="inherit"> Home </Button>
-                <Button href="/projects/" component={Link} color="inherit"> Projects </Button>
+                <Button href="#/projects/" component={Link} color="inherit"> Projects </Button>
             </Toolbar>
         </AppBar>
     );

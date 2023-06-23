@@ -6,6 +6,7 @@ import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
 
 export default function Footer() {
     return (
+        <div className="Footer">
         <footer style={{backgroundColor: "orange", width: "100%"}}>
             Contacts:
             <br/>
@@ -16,5 +17,6 @@ export default function Footer() {
                 <FontAwesomeIcon icon={faGithub}/>    
             </a>
         </footer>
+        </div>
     );
 }
