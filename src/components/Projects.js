@@ -12,7 +12,7 @@ function Projects() {
                 <b>Crypto Arbitrage Dashboard</b> - a dashboard that takes advantage of the price differential of the same cryptocurrencies on two different decentralized exchanges and attempts to make a trade based on the difference for the purpose of profit. Made using HTML/JavaScript, as well as React, Node.js, and web3.js.
                 </li>
                 <li>
-                <b>Tenafly High School GPA Calculator</b> - a Chrome extension that scrapes the values of the student's grade on the Genesis portal and calculates the grade based on the number of credits, placement, and letter grade. Made using JavaScript and HTML.
+                <b>Tenafly High School GPA Calculator</b> - a Chrome extension that scrapes the values of the student's grade on the Genesis portal and calculates the grade based on the number of credits, placement, and letter grade. Made using JavaScript and HTML. (<a target="_blank" href="https://chrome.google.com/webstore/detail/tenafly-gpa-calculator/hhibfahkdabfjmieobhafkglmleommja?hl=en">LINK</a>)
                 </li>
             </ul>
         </div>
