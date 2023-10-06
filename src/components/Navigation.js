@@ -1,5 +1,6 @@
 import React from 'react';
 import {AppBar, Toolbar, Button, Link} from '@mui/material';
+import './Navigation.css';
 
 export default function Navigation() {
     return (
