@@ -8,4 +8,16 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-{@render children()}
+<div class="main-body">
+	{@render children()}
+</div>
+
+<style>
+	.main-body {
+		max-width: 1280px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+</style>
